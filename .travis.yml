@@ -1,6 +1,8 @@
 branches:
 	only:
+		- gh-pages
 		- /.*/
+
 language: scilab
 
 before_install:
