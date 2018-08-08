@@ -7,8 +7,8 @@ function check(in1, in2)
 			error('check: The sizes of the inputs don''t match.')
 		end
 		n = length(in1)
-		diff = in1 - in2
-		avgDiff = sum(abs(diff))/n
+		input_diff = in1 - in2
+		avgDiff = sum(abs(input_diff))/n
 		printf("Average Absolute Difference: %f\n", avgDiff)
 		if avgDiff < 0.001 then
 			disp('Passed!')
