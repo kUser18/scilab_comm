@@ -1,4 +1,4 @@
-function output = check(in1, in2)
+function check(in1, in2)
 	if type(in1) ~= type(in2) then
 		error('check: The data types of the inputs don''t match.')
 	end
