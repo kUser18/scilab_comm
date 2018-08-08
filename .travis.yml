@@ -1,14 +1,8 @@
 # safelist
 branches:
 	only:
-		-master
-		-octave
-
-# blocklist
-branches:
-	except:
-		-master
-		-octave
+		- master
+		- octave
 
 language: scilab
 
